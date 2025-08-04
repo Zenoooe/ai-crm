@@ -1,0 +1,660 @@
+# FastAPI CRM 系统依赖包
+
+# Web框架
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+starlette==0.27.0
+
+# 数据库
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# 数据验证
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# 异步HTTP客户端
+httpx==0.25.2
+aiofiles==23.2.1
+
+# 缓存和队列
+redis==5.0.1
+celery==5.3.4
+
+# 认证和安全
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# 环境配置
+python-dotenv==1.0.0
+
+# AI服务集成
+openai==1.3.7
+google-generativeai==0.3.2
+anthropics==0.8.1
+
+# 图像处理和OCR
+Pillow==10.1.0
+tesseract==0.1.3
+pytesseract==0.3.10
+opencv-python==4.8.1.78
+
+# 文档处理
+python-docx==1.1.0
+PyPDF2==3.0.1
+pandas==2.1.4
+openpyxl==3.1.2
+
+# 邮件服务
+fastapi-mail==1.4.1
+jinja2==3.1.2
+
+# 日志和监控
+loguru==0.7.2
+sentry-sdk[fastapi]==1.38.0
+prometheus-client==0.19.0
+
+# 测试
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+factory-boy==3.3.0
+
+# 数据序列化
+orjson==3.9.10
+
+# 时间处理
+python-dateutil==2.8.2
+pytz==2023.3
+
+# 文件处理
+aiofiles==23.2.1
+
+# 网络请求
+requests==2.31.0
+
+# 数据分析
+numpy==1.25.2
+scipy==1.11.4
+
+# 自然语言处理
+nltk==3.8.1
+jieba==0.42.1
+
+# 机器学习（可选）
+scikit-learn==1.3.2
+
+# 图表生成
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# 配置管理
+pydantic-settings==2.1.0
+
+# 类型检查
+mypy==1.7.1
+
+# 代码格式化
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+
+# 开发工具
+watchdog==3.0.0
+
+# 性能分析
+py-spy==0.3.14
+
+# 国际化
+babel==2.13.1
+
+# 加密
+cryptography==41.0.7
+
+# 任务调度
+apscheduler==3.10.4
+
+# WebSocket支持
+websockets==12.0
+
+# 数据库迁移
+yoyo-migrations==8.2.0
+
+# 配置验证
+cerberus==1.3.5
+
+# 缓存装饰器
+cachetools==5.3.2
+
+# 限流
+slowapi==0.1.9
+
+# 健康检查
+fastapi-health==0.4.0
+
+# CORS
+fastapi-cors==0.0.6
+
+# 中间件
+fastapi-limiter==0.1.5
+
+# 文件上传
+python-multipart==0.0.6
+
+# 数据导出
+reportlab==4.0.7
+
+# 二维码生成
+qrcode[pil]==7.4.2
+
+# 地理位置
+geopy==2.4.1
+
+# 语音处理
+speechrecognition==3.10.0
+pydub==0.25.1
+
+# 社交媒体API
+tweepy==4.14.0
+
+# 消息队列
+kombu==5.3.4
+
+# 数据压缩
+lz4==4.3.2
+
+# 正则表达式
+regex==2023.10.3
+
+# 字符串处理
+fuzzywuzzy==0.18.0
+python-levenshtein==0.23.0
+
+# 颜色处理
+colorama==0.4.6
+
+# 进度条
+tqdm==4.66.1
+
+# 配置文件解析
+toml==0.10.2
+pyyaml==6.0.1
+
+# 数据结构
+collections-extended==2.0.2
+
+# 函数式编程
+toolz==0.12.0
+
+# 异步工具
+aioredis==2.0.1
+aiopg==1.4.0
+
+# 数据验证增强
+validators==0.22.0
+
+# 内存分析
+memory-profiler==0.61.0
+
+# 系统信息
+psutil==5.9.6
+
+# 网络工具
+netifaces==0.11.0
+
+# 时区处理
+pytz==2023.3
+
+# 数学计算
+sympy==1.12
+
+# 统计分析
+statsmodels==0.14.0
+
+# 数据可视化
+plotly==5.17.0
+
+# 机器学习管道
+joblib==1.3.2
+
+# 特征工程
+feature-engine==1.6.2
+
+# 模型解释
+shap==0.43.0
+
+# 超参数优化
+optuna==3.4.0
+
+# 深度学习（可选）
+torch==2.1.1
+tensorflow==2.15.0
+
+# 图数据库（可选）
+neo4j==5.14.1
+
+# 搜索引擎
+elasticsearch==8.11.0
+
+# 消息传递
+pika==1.3.2
+
+# 分布式计算
+dask==2023.11.0
+
+# 数据流
+apache-beam==2.52.0
+
+# 容器化
+docker==6.1.3
+
+# 云服务
+boto3==1.34.0  # AWS
+azure-storage-blob==12.19.0  # Azure
+google-cloud-storage==2.10.0  # GCP
+
+# 监控和追踪
+opentelemetry-api==1.21.0
+opentelemetry-sdk==1.21.0
+
+# 配置管理
+hydra-core==1.3.2
+
+# 数据管道
+airflow==2.7.3
+
+# 实时数据
+kafka-python==2.0.2
+
+# 图像识别
+face-recognition==1.3.0
+
+# 语音合成
+gTTS==2.4.0
+
+# 翻译服务
+googletrans==4.0.0rc1
+
+# 情感分析
+vaderSentiment==3.3.2
+textblob==0.17.1
+
+# 关键词提取
+yake==0.4.8
+
+# 文本摘要
+sumy==0.11.0
+
+# 命名实体识别
+spacy==3.7.2
+
+# 主题建模
+gensim==4.3.2
+
+# 聚类分析
+hdbscan==0.8.33
+
+# 异常检测
+isolation-forest==0.1.2
+
+# 时间序列
+tslearn==0.6.2
+
+# 推荐系统
+surprise==1.1.3
+
+# 网络分析
+networkx==3.2.1
+
+# 地理空间分析
+geopandas==0.14.1
+
+# 金融数据
+yfinance==0.2.28
+
+# 区块链（可选）
+web3==6.12.0
+
+# 加密货币
+ccxt==4.1.64
+
+# 社交网络分析
+twitter-api==0.3.9
+
+# 邮件解析
+email-validator==2.1.0
+
+# URL处理
+furl==2.1.3
+
+# 用户代理
+fake-useragent==1.4.0
+
+# 代理管理
+requests-oauthlib==1.3.1
+
+# API文档
+fastapi-users==12.1.2
+
+# 权限管理
+fastapi-permissions==0.2.7
+
+# 速率限制
+fastapi-limiter==0.1.5
+
+# 缓存
+fastapi-cache2==0.2.1
+
+# 分页
+fastapi-pagination==0.12.13
+
+# 过滤
+fastapi-filter==0.6.0
+
+# 版本控制
+fastapi-versioning==0.10.0
+
+# 依赖注入
+dependency-injector==4.41.0
+
+# 事件驱动
+fastapi-events==0.9.1
+
+# 后台任务
+fastapi-utils==0.2.1
+
+# 响应模型
+fastapi-responses==0.2.1
+
+# 中间件集合
+fastapi-middleware==0.1.0
+
+# 插件系统
+pluggy==1.3.0
+
+# 配置热重载
+watchfiles==0.21.0
+
+# 性能监控
+fastapi-profiler==1.2.0
+
+# 错误处理
+fastapi-error-handler==1.0.0
+
+# 请求ID
+fastapi-request-id==1.0.0
+
+# 健康检查增强
+fastapi-health-check==1.0.0
+
+# 指标收集
+fastapi-prometheus==0.1.0
+
+# 链路追踪
+fastapi-tracing==0.1.0
+
+# 安全头
+fastapi-security==0.1.0
+
+# 内容协商
+fastapi-negotiation==0.1.0
+
+# 响应压缩
+fastapi-gzip==0.1.0
+
+# 静态文件
+fastapi-static==0.1.0
+
+# 模板引擎
+fastapi-jinja2==0.1.0
+
+# 表单处理
+fastapi-forms==0.1.0
+
+# 文件服务
+fastapi-fileserver==0.1.0
+
+# 代理支持
+fastapi-proxy==0.1.0
+
+# 重定向
+fastapi-redirect==0.1.0
+
+# 会话管理
+fastapi-sessions==0.3.2
+
+# Cookie处理
+fastapi-cookies==0.1.0
+
+# 国际化
+fastapi-babel==0.1.0
+
+# 时区支持
+fastapi-timezone==0.1.0
+
+# 货币处理
+fastapi-money==0.1.0
+
+# 单位转换
+fastapi-units==0.1.0
+
+# 颜色处理
+fastapi-colors==0.1.0
+
+# 图像处理
+fastapi-images==0.1.0
+
+# 音频处理
+fastapi-audio==0.1.0
+
+# 视频处理
+fastapi-video==0.1.0
+
+# PDF处理
+fastapi-pdf==0.1.0
+
+# Excel处理
+fastapi-excel==0.1.0
+
+# CSV处理
+fastapi-csv==0.1.0
+
+# JSON处理
+fastapi-json==0.1.0
+
+# XML处理
+fastapi-xml==0.1.0
+
+# YAML处理
+fastapi-yaml==0.1.0
+
+# 配置管理
+fastapi-config==0.1.0
+
+# 环境变量
+fastapi-env==0.1.0
+
+# 秘密管理
+fastapi-secrets==0.1.0
+
+# 加密解密
+fastapi-crypto==0.1.0
+
+# 哈希处理
+fastapi-hash==0.1.0
+
+# 签名验证
+fastapi-signature==0.1.0
+
+# 令牌管理
+fastapi-tokens==0.1.0
+
+# 权限控制
+fastapi-rbac==0.1.0
+
+# 审计日志
+fastapi-audit==0.1.0
+
+# 数据脱敏
+fastapi-anonymize==0.1.0
+
+# 数据备份
+fastapi-backup==0.1.0
+
+# 数据恢复
+fastapi-restore==0.1.0
+
+# 数据同步
+fastapi-sync==0.1.0
+
+# 数据迁移
+fastapi-migrate==0.1.0
+
+# 数据清理
+fastapi-cleanup==0.1.0
+
+# 数据验证
+fastapi-validate==0.1.0
+
+# 数据转换
+fastapi-transform==0.1.0
+
+# 数据聚合
+fastapi-aggregate==0.1.0
+
+# 数据分析
+fastapi-analytics==0.1.0
+
+# 数据可视化
+fastapi-charts==0.1.0
+
+# 报表生成
+fastapi-reports==0.1.0
+
+# 仪表板
+fastapi-dashboard==0.1.0
+
+# 通知系统
+fastapi-notifications==0.1.0
+
+# 消息队列
+fastapi-queue==0.1.0
+
+# 任务调度
+fastapi-scheduler==0.1.0
+
+# 工作流
+fastapi-workflow==0.1.0
+
+# 状态机
+fastapi-statemachine==0.1.0
+
+# 事件总线
+fastapi-eventbus==0.1.0
+
+# 命令模式
+fastapi-commands==0.1.0
+
+# 查询模式
+fastapi-queries==0.1.0
+
+# 仓储模式
+fastapi-repository==0.1.0
+
+# 工作单元
+fastapi-uow==0.1.0
+
+# 领域事件
+fastapi-domain-events==0.1.0
+
+# 聚合根
+fastapi-aggregates==0.1.0
+
+# 值对象
+fastapi-value-objects==0.1.0
+
+# 实体
+fastapi-entities==0.1.0
+
+# 服务层
+fastapi-services==0.1.0
+
+# 应用层
+fastapi-application==0.1.0
+
+# 基础设施层
+fastapi-infrastructure==0.1.0
+
+# 领域层
+fastapi-domain==0.1.0
+
+# 表现层
+fastapi-presentation==0.1.0
+
+# 适配器模式
+fastapi-adapters==0.1.0
+
+# 门面模式
+fastapi-facade==0.1.0
+
+# 策略模式
+fastapi-strategy==0.1.0
+
+# 观察者模式
+fastapi-observer==0.1.0
+
+# 装饰器模式
+fastapi-decorator==0.1.0
+
+# 工厂模式
+fastapi-factory==0.1.0
+
+# 建造者模式
+fastapi-builder==0.1.0
+
+# 原型模式
+fastapi-prototype==0.1.0
+
+# 单例模式
+fastapi-singleton==0.1.0
+
+# 代理模式
+fastapi-proxy-pattern==0.1.0
+
+# 桥接模式
+fastapi-bridge==0.1.0
+
+# 组合模式
+fastapi-composite==0.1.0
+
+# 享元模式
+fastapi-flyweight==0.1.0
+
+# 责任链模式
+fastapi-chain==0.1.0
+
+# 命令模式
+fastapi-command-pattern==0.1.0
+
+# 解释器模式
+fastapi-interpreter==0.1.0
+
+# 迭代器模式
+fastapi-iterator==0.1.0
+
+# 中介者模式
+fastapi-mediator==0.1.0
+
+# 备忘录模式
+fastapi-memento==0.1.0
+
+# 状态模式
+fastapi-state==0.1.0
+
+# 模板方法模式
+fastapi-template-method==0.1.0
+
+# 访问者模式
+fastapi-visitor==0.1.0
